@@ -1,0 +1,90 @@
+Executing the command: jupyter notebook
+
+[I 20:16:23.777 NotebookApp](B[m Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 20:16:25.283 NotebookApp](B[m JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 20:16:25.283 NotebookApp](B[m JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 20:16:25.289 NotebookApp](B[m Serving notebooks from local directory: /home/jovyan
+[I 20:16:25.289 NotebookApp](B[m The Jupyter Notebook is running at:
+[I 20:16:25.289 NotebookApp](B[m http://(569112d75c68 or 127.0.0.1):8888/?token=6d528b13e1cdb2855a92fae51166941b27c9c95cd8f61f30
+[I 20:16:25.291 NotebookApp](B[m Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:16:25.298 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/jovyan/.local/share/jupyter/runtime/nbserver-7-open.html
+    Or copy and paste one of these URLs:
+        http://(569112d75c68 or 127.0.0.1):8888/?token=6d528b13e1cdb2855a92fae51166941b27c9c95cd8f61f30
+[I 20:16:31.917 NotebookApp](B[m 302 GET / (172.17.0.1) 2.83ms
+[I 20:16:31.944 NotebookApp](B[m 302 GET /tree? (172.17.0.1) 1.96ms
+[W 20:16:46.263 NotebookApp](B[m Not allowing login redirect to '/tree?'
+[I 20:16:46.264 NotebookApp](B[m 302 POST /login?next=%2Ftree%3F (172.17.0.1) 3.96ms
+[I 20:16:46.277 NotebookApp](B[m 302 GET / (172.17.0.1) 0.64ms
+[I 20:18:06.397 NotebookApp](B[m Uploading file to /index.ipynb
+[W 20:18:06.421 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:18:09.904 NotebookApp](B[m Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 20:18:09.907 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:18:11.136 NotebookApp](B[m Kernel started: 43cc7adb-113c-4095-a232-c7a3f5d44272
+[W 20:18:11.148 NotebookApp](B[m 404 GET /notebooks/reduce.gif (172.17.0.1): No such file or directory: reduce.gif
+[W 20:18:11.180 NotebookApp](B[m 404 GET /notebooks/reduce.gif (172.17.0.1) 37.83ms referer=http://localhost:32773/notebooks/index.ipynb
+[I 20:18:13.673 NotebookApp](B[m Adapting to protocol v5.1 for kernel 43cc7adb-113c-4095-a232-c7a3f5d44272
+19/05/16 20:19:48 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 2) / 5]                                                                                [I 20:20:12.152 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:20:12.153 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:22:11.104 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:22:11.107 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:24:11.106 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:24:11.107 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:26:11.099 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:26:11.100 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:28:11.115 NotebookApp](B[m Saving file at /index.ipynb
+[I 20:29:21.201 NotebookApp](B[m Saving file at /index.ipynb
+[I 20:30:57.768 NotebookApp](B[m Starting buffering for 43cc7adb-113c-4095-a232-c7a3f5d44272:ddab5019c8f24938b7ee5c05b2c4a8f3
+[I 20:31:59.867 NotebookApp](B[m 302 GET / (172.17.0.1) 1.55ms
+[I 20:32:07.885 NotebookApp](B[m Kernel shutdown: 43cc7adb-113c-4095-a232-c7a3f5d44272
+[I 20:32:29.546 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:32:29.549 NotebookApp](B[m Notebook index.ipynb is not trusted
+[W 20:32:34.153 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:32:34.968 NotebookApp](B[m Kernel started: 77eb6c40-64ef-4209-bb07-bc4ec682a69f
+[W 20:32:34.984 NotebookApp](B[m 404 GET /notebooks/fm.gif (172.17.0.1): No such file or directory: fm.gif
+[W 20:32:34.989 NotebookApp](B[m 404 GET /notebooks/fm.gif (172.17.0.1) 6.69ms referer=http://localhost:32773/notebooks/index.ipynb
+[W 20:32:35.000 NotebookApp](B[m 404 GET /notebooks/reduce_by.png (172.17.0.1): No such file or directory: reduce_by.png
+[W 20:32:35.002 NotebookApp](B[m 404 GET /notebooks/reduce_by.png (172.17.0.1) 11.91ms referer=http://localhost:32773/notebooks/index.ipynb
+[W 20:32:35.006 NotebookApp](B[m 404 GET /notebooks/group_by.png (172.17.0.1): No such file or directory: group_by.png
+[W 20:32:35.008 NotebookApp](B[m 404 GET /notebooks/group_by.png (172.17.0.1) 3.72ms referer=http://localhost:32773/notebooks/index.ipynb
+[I 20:32:37.233 NotebookApp](B[m Adapting to protocol v5.1 for kernel 77eb6c40-64ef-4209-bb07-bc4ec682a69f
+19/05/16 20:33:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 2) / 4][Stage 0:>                                                          (0 + 4) / 4]                                                                                [I 20:34:34.975 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:34:34.979 NotebookApp](B[m Notebook index.ipynb is not trusted
+[Stage 7:>                                                          (0 + 2) / 2]                                                                                [I 20:35:25.313 NotebookApp](B[m Saving file at /index.ipynb
+[I 20:37:23.262 NotebookApp](B[m Starting buffering for 77eb6c40-64ef-4209-bb07-bc4ec682a69f:086af4f98526431792c1ef7986a109b1
+[I 20:37:32.162 NotebookApp](B[m Kernel shutdown: 77eb6c40-64ef-4209-bb07-bc4ec682a69f
+[I 20:37:48.859 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:37:48.863 NotebookApp](B[m Notebook index.ipynb is not trusted
+[W 20:37:51.706 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:37:52.741 NotebookApp](B[m Kernel started: f9f9e799-5a5d-45f5-a771-22cf54c6a737
+[W 20:37:52.756 NotebookApp](B[m 404 GET /notebooks/wc1.png (172.17.0.1): No such file or directory: wc1.png
+[W 20:37:52.760 NotebookApp](B[m 404 GET /notebooks/wc1.png (172.17.0.1) 9.95ms referer=http://localhost:32773/notebooks/index.ipynb
+[W 20:37:52.761 NotebookApp](B[m 404 GET /notebooks/map.jpg (172.17.0.1): No such file or directory: map.jpg
+[W 20:37:52.766 NotebookApp](B[m 404 GET /notebooks/map.jpg (172.17.0.1) 14.41ms referer=http://localhost:32773/notebooks/index.ipynb
+[W 20:37:52.773 NotebookApp](B[m 404 GET /notebooks/reduce.png (172.17.0.1): No such file or directory: reduce.png
+[W 20:37:52.777 NotebookApp](B[m 404 GET /notebooks/reduce.png (172.17.0.1) 6.01ms referer=http://localhost:32773/notebooks/index.ipynb
+[W 20:37:52.778 NotebookApp](B[m 404 GET /notebooks/wc2.png (172.17.0.1): No such file or directory: wc2.png
+[W 20:37:52.783 NotebookApp](B[m 404 GET /notebooks/wc2.png (172.17.0.1) 11.52ms referer=http://localhost:32773/notebooks/index.ipynb
+[I 20:37:54.576 NotebookApp](B[m Adapting to protocol v5.1 for kernel f9f9e799-5a5d-45f5-a771-22cf54c6a737
+19/05/16 20:38:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 20:39:52.761 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:39:52.763 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:41:53.572 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:41:53.574 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:43:52.766 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:43:52.768 NotebookApp](B[m Notebook index.ipynb is not trusted
+[I 20:45:52.771 NotebookApp](B[m Saving file at /index.ipynb
+[W 20:45:52.773 NotebookApp](B[m Notebook index.ipynb is not trusted
